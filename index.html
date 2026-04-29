@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cloud Computing & DevOps Fundamentals | AWS-Focused</title>
+  <style>
+    :root {
+      --primary: #0f766e;
+      --dark: #1f2937;
+      --light: #f8fafc;
+      --accent: #14b8a6;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: var(--light);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), #0a5c57);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      opacity: 0.95;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .info-bar {
+      background: white;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      font-weight: 600;
+    }
+
+    .day {
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .day-header {
+      background: var(--primary);
+      color: white;
+      padding: 1.2rem 2rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .session {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .session:last-child {
+      border-bottom: none;
+    }
+
+    .session-title {
+      color: var(--primary);
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+      font-size: 1.05rem;
+    }
+
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+    }
+
+    .highlight {
+      background: #ecfdf5;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      .info-bar { flex-direction: column; text-align: center; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cloud Computing & DevOps Fundamentals</h1>
+    <p>AWS-Focused • 5 Days • 30 Hours</p>
+  </header>
+
+  <div class="container">
+
+    <div class="info-bar">
+      <div>📅 <strong>5 Days</strong></div>
+      <div>⏰ <strong>3 Sessions per Day</strong></div>
+      <div>🕒 <strong>2 Hours per Session</strong></div>
+      <div>🎯 <strong>Total: 30 Hours</strong></div>
+    </div>
+
+    <!-- Day 1 -->
+    <div class="day">
+      <div class="day-header">Day 1: Cloud Foundations & AWS Introduction</div>
+      
+      <div class="session">
+        <div class="session-title">Session 1 – Cloud Fundamentals (2 hours)</div>
+        <ul>
+          <li>Evolution of computing (Traditional vs Cloud)</li>
+          <li>Cloud service models (IaaS, PaaS, SaaS)</li>
+          <li>Deployment models (Public, Private, Hybrid)</li>
+          <li>Benefits of cloud (scalability, elasticity, cost-efficiency)</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 2 – Cloud Ecosystem & Providers (2 hours)</div>
+        <ul>
+          <li>Overview of major cloud providers</li>
+          <li>Introduction to AWS</li>
+          <li>Use cases of cloud in real-world scenarios</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 3 – AWS Basics & IAM (2 hours)</div>
+        <ul>
+          <li>AWS Global Infrastructure (Regions, Availability Zones)</li>
+          <li>AWS Management Console walkthrough</li>
+          <li>Identity and Access Management (IAM): users, roles, policies</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day">
+      <div class="day-header">Day 2: Core AWS Services & Database Fundamentals</div>
+      
+      <div class="session">
+        <div class="session-title">Session 1 – Compute Services (EC2) (2 hours)</div>
+        <ul>
+          <li>Introduction to Amazon EC2</li>
+          <li>Instance types, key pairs, security groups</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 2 – Storage Services (S3) (2 hours)</div>
+        <ul>
+          <li>Amazon S3 overview</li>
+          <li>Storage types and use cases</li>
+          <li>Hands-on: basic S3 usage</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 3 – Database Fundamentals (2 hours)</div>
+        <ul>
+          <li>What is a database?</li>
+          <li>SQL vs NoSQL (differences and use cases)</li>
+          <li>Overview of Amazon RDS and Amazon DynamoDB</li>
+          <li>Choosing the right database</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day">
+      <div class="day-header">Day 3: Networking (VPC) & DevOps Introduction</div>
+      
+      <div class="session">
+        <div class="session-title">Session 1 – Networking Basics (2 hours)</div>
+        <ul>
+          <li>Fundamentals of networking (IP, subnets)</li>
+          <li>Introduction to Amazon VPC</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 2 – VPC Components & Security (2 hours)</div>
+        <ul>
+          <li>Public vs Private subnets</li>
+          <li>Internet Gateway (concept)</li>
+          <li>Security Groups vs Network ACLs</li>
+          <li>Activity: AWS architecture diagram (VPC + EC2 + subnet)</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 3 – DevOps Fundamentals (2 hours)</div>
+        <ul>
+          <li>What is DevOps?</li>
+          <li>Traditional vs DevOps workflow</li>
+          <li>DevOps lifecycle (Plan → Code → Build → Test → Deploy → Monitor)</li>
+          <li>Key principles: automation, collaboration, continuous improvement</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day">
+      <div class="day-header">Day 4: Version Control & CI/CD Pipelines</div>
+      
+      <div class="session">
+        <div class="session-title">Session 1 – Version Control (Git & GitHub) (2 hours)</div>
+        <ul>
+          <li>Introduction to Git and GitHub</li>
+          <li>Basic commands (clone, commit, push)</li>
+          <li>Branching and collaboration workflows</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 2 – Modern DevOps Concepts (2 hours)</div>
+        <ul>
+          <li>Containerization (basic concept)</li>
+          <li>Orchestration (basic concept)</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 3 – CI/CD Fundamentals & Hands-on (2 hours)</div>
+        <ul>
+          <li>Continuous Integration vs Continuous Deployment</li>
+          <li>Pipeline stages (build, test, deploy)</li>
+          <li>Tools overview (GitHub Actions / Jenkins)</li>
+          <li>Hands-on: Create a simple CI/CD pipeline</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Day 5 -->
+    <div class="day">
+      <div class="day-header">Day 5: Monitoring, Cost Optimization & Mini Project</div>
+      
+      <div class="session">
+        <div class="session-title">Session 1 – Monitoring & Logging (2 hours)</div>
+        <ul>
+          <li>Importance of monitoring in cloud</li>
+          <li>Introduction to Amazon CloudWatch</li>
+          <li>Metrics vs Logs</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 2 – Advanced AWS Services & Cost Optimization (2 hours)</div>
+        <ul>
+          <li>AWS Lambda (serverless concept)</li>
+          <li>Amazon SNS (notifications)</li>
+          <li>Amazon CloudFront (CDN basics)</li>
+          <li>AWS pricing model (pay-as-you-go)</li>
+          <li>Billing dashboard and budget alerts</li>
+          <li>Cost optimization best practices</li>
+        </ul>
+      </div>
+
+      <div class="session">
+        <div class="session-title">Session 3 – Mini Project & Presentation (2 hours)</div>
+        <ul>
+          <li>Deploy a simple application on AWS</li>
+          <li>Use EC2/S3 with basic CI/CD</li>
+          <li>Group work, presentation, feedback</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p><strong>Cloud Computing & DevOps Fundamentals (AWS-Focused)</strong></p>
+    <p>Total Duration: 30 Hours | Designed for Beginners to Intermediate Learners</p>
+  </footer>
+
+</body>
+</html>
